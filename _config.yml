@@ -1,0 +1,50 @@
+### Site info:
+title: Junhao的技术博客
+tagline: "The Pursuit of Absolute Simplicity"
+author: Junhao Jiang
+email: junhao.john.jiang@gmail.com
+description: "Junhao的技术博客" # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
+keywords: "junhao, 技术博客"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://localhost:4000" # the base hostname & protocol for your site
+
+
+### Personal info and site tools info:
+github_username: junhao
+favicon:     "/images/favicon.ico"
+aboutme: Hi, this is Junhao Jiang. # these are shown on aboutme-sidebar.
+
+
+### Site setting:
+ShowContactInfo: "True" # Personal Info (twitter,github,email) can be seen on aboutme-sidebar, those info only shown where ShowContactInfo == True
+default_column: "two" # blog style: two columns, if default_column != "two", you will see a one column blog.
+default_locale: "cn" # blog sidebar language set, only include: English(en) and Chinese (cn)
+
+locales:
+    en:
+      Aboutme: "About Me"
+      Archives: "Archives"
+      Categories: "Categories"
+      Recent_Posts: "Recent Posts"
+      Tags: "Tags"
+      Previous: "Older"
+      Next: "Newer"
+      PostedInCategories: "Posted in"
+      Taggedwith: "and tagged"  
+      PostDate: "on "
+    cn:
+      Aboutme: "关于我"
+      Archives: "存档"
+      Categories: "分类目录"
+      Recent_Posts: "近期文章"
+      Tags: "标签" 
+      Previous: "前一页"
+      Next: "后一页"
+      PostedInCategories: "目录:"   
+      Taggedwith: "| 标签:"
+      PostDate: "| 发表时间: "
+
+### Build settings
+markdown: kramdown
+highlighter: pygments
+paginate: 5
